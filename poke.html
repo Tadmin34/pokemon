@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <!-- Favicon -->
+    <link rel="icon" type="img/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/512px-Pok%C3%A9_Ball_icon.svg.png" />
+    <link rel="stylesheet" href="poke.css">
+</head>
+<body>
+    <div class="img">
+        <img id="pictuer_poke" src="https://imgs.search.brave.com/N1rd41z5jWAkwPAZrDSGUf25sQhIXSAJC0-5jdwLakk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLmlt/Z2ZsaXAuY29tLzIv/ODc0OHl2LmpwZw" alt="">
+    </div>
+    <div class="information">
+        <div class="search">
+            <h2>Điền Tên Vào Đây</h2>
+            <input type="text" id="name" placeholder="Điền tên vào đây">
+            <ul id="suggestions"></ul>
+        </div>
+        <div class="infor_poke">
+            <div class="item">
+                <h3>TÊN</h3>
+                <h4 id="name_poke"></h4>
+            </div>
+            <div class="item">
+                <h3>LOẠI</h3>
+                <h4 id="type_poke"></h4>
+            </div>
+            <div class="item">
+                <h3>CHIỀU CAO</h3>
+                <h4 id="height_poke"></h4>
+            </div>
+            <div class="item">
+                <h3>TRỌNG LƯỢNG</h3>
+                <h4 id="weight_poke"></h4>
+            </div>
+            <div class="item">
+                <h3>CHỈ SỐ IQ</h3>
+                <h4 id="biq_poke"></h4>
+            </div>
+        </div>
+    </div>
+    <script src="poke.js"></script>
+</body>
+</html>
